@@ -9,13 +9,12 @@ public class AddTwoList {
 	}
 
 	public static void addTwoNums(int[] L1, int[] L2) {
-
+		assert L1.length == L2.length : "Lists must be of same size";
 
 		for (int i = 0; i < L1.length; i++) {
 			int L3 = L1[i] + L2[i];
 			System.out.println((L3));
 		}
-
 
 	}
 
